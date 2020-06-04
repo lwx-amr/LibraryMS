@@ -1,16 +1,15 @@
 #include <iostream>
 #include <vector>
+#include <Library.h>
 
 using namespace std;
 
 int main()
 {
-    int x;
-    vector<int> ourList;
-    cout << "Hello world!" << endl;
-    cin>>x;
-    ourList.push_back(x);
-    ourList.push_back(15);
-    cout<<ourList[0]<<" "<<ourList[1]<<endl;
+    Library libObj;
+    libObj.addNewBook("DS", 13, 3);
+    libObj.addNewBook("Al", 10, 2);
+    libObj.addNewBook("IS", 5, 1);
+    libObj.libraryInventory();
     return 0;
 }

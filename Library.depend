@@ -1,4 +1,31 @@
 # depslib dependency file v1.0
-1591274764 source:/home/amr/Career/Study/Core Science/Pratice/Library/Library/main.cpp
+1591294985 source:/home/amr/Career/Study/Core Science/Pratice/Library/Library/main.cpp
 	<iostream>
+	<vector>
+	<Library.h>
+
+1591295119 source:/home/amr/Career/Study/Core Science/Pratice/Library/Library/src/Book.cpp
+	"Book.h"
+	"Copy.h"
+	"iostream"
+
+1591292551 /home/amr/Career/Study/Core Science/Pratice/Library/Library/include/Book.h
+	"Copy.h"
+	<string>
+
+1591295103 source:/home/amr/Career/Study/Core Science/Pratice/Library/Library/src/Copy.cpp
+	"Copy.h"
+	"iostream"
+
+1591294310 /home/amr/Career/Study/Core Science/Pratice/Library/Library/include/Copy.h
+	<string>
+
+1591293550 source:/home/amr/Career/Study/Core Science/Pratice/Library/Library/src/Library.cpp
+	"Library.h"
+	<iostream>
+	"Book.h"
+
+1591293948 /home/amr/Career/Study/Core Science/Pratice/Library/Library/include/Library.h
+	"Book.h"
+	<vector>
 
