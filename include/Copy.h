@@ -9,9 +9,15 @@ class Copy
 {
     public:
         Copy();
+        Copy(string);
+        void print();
+        void addBorrow(string, string, int);
+        void removeBorrow();
+
         Copy *getNext();
         void setNext(Copy*);
-        void print();
+        bool getAvial();
+        string getBorrowName();
 
     private:
         string date, borrowName, borrowDate;

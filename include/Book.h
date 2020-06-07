@@ -11,10 +11,15 @@ class Book
         Book();
         Book(string, int, int);
         void initCopies();
+        void addNewCopy(string);
+        void addNewBorrow(string, string, int);
+        void addBookReturn(string);
+
         void print();
+
         Book* getNext();
         void setNext(Book *);
-
+        string getName();
     private:
         string name;
         int isbn, numOfCopies;
